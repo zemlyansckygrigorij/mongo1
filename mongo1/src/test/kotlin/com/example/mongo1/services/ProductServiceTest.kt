@@ -35,7 +35,7 @@ internal class ProductServiceTest{
                 "512 MB")
         productTest1 = Product(name = "test1",price=12.3,properties=propreties)
         productTest2 = Product(name = "test2",price=14.6,properties=propreties)
-        id = productTest1.id.toString()
+   //     id = productTest1.id.toString()
         //productDAO = ProductDAO
         productDAO.insert(productTest1)
         productDAO.insert(productTest2)
